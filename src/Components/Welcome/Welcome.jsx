@@ -20,10 +20,6 @@ const Welcome = () => {
             </section>
 
             <hr className='border-2 border-gray-200'/>
-
-            <footer className='mt-10 text-center py-4'>
-                <p className='text-gray-500'>© 2023 HeroGadget Inc. All rights reserved.</p>
-            </footer>
         </div>
     );
 };

@@ -5,7 +5,7 @@ import Product from '../Product/Product';
 const Shoap = () => {
     const products = useLoaderData()
     return (
-        <div className='grid grid-cols-3 gap-8 mt-20 px-20'>
+        <div className='grid grid-cols-3 gap-8 mt-20 px-20 mb-10'>
             {
                 products.map(product => <Product
                     key={product.id}

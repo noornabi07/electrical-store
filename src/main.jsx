@@ -11,11 +11,13 @@ import Home from './Components/Home/Home';
 import Shoap from './Components/Shoap/Shoap';
 import About from './Components/About/About';
 import Welcome from './Components/Welcome/Welcome';
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home></Home>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
